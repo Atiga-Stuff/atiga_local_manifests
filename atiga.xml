@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Clang -->
+    <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="gitlab" revision="refs/heads/13.x" clone-depth="1" />
+
+    <!-- Vendor -->
+    <project path="vendor/atiga/extra" name="Atiga-Stuff/vendor_atiga_extra" />
+    <project path="vendor/lineage-priv" name="Atiga-Stuff/vendor_atiga-priv" />
+</manifest>
