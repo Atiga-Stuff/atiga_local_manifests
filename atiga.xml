@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote  name="gitlab"
+             fetch="https://gitlab.com"
+             revision="refs/heads/13.x" />
+
     <!-- Clang -->
-    <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="gitlab" revision="refs/heads/13.x" clone-depth="1" />
+    <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="gitlab" clone-depth="1" />
 
     <!-- Vendor -->
+<!--
     <project path="vendor/atiga/extra" name="Atiga-Stuff/vendor_atiga_extra" remote="private" revision="refs/heads/lineage-19.1" />
-    <project path="vendor/lineage-priv" name="Atiga-Stuff/vendor_atiga-priv" />
+-->
+    <project path="vendor/afterlife-priv" name="Atiga-Stuff/vendor_atiga-priv" revision="refs/heads/afterlife-8.0" />
 </manifest>
