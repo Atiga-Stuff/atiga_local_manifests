@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Device trees -->
+    <project path="device/xiaomi/rosy" name="aepranata/device_xiaomi_rosy" revision="refs/heads/12.1" />
+
+    <!-- Kernel trees -->
+    <project path="kernel/xiaomi/rosy" name="aepranata/kernel_xiaomi_rosy" revision="refs/heads/12.1" />
+
+    <!-- Vendor trees -->
+    <project path="vendor/xiaomi/rosy" name="aepranata/vendor_xiaomi_rosy" revision="refs/heads/12.1" />
+</manifest>
