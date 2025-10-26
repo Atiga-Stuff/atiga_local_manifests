@@ -2,12 +2,16 @@
 <manifest>
     <!-- Device trees -->
     <project path="device/asus/X00TD" name="Atiga-Stuff/device_asus_X00TD" remote="private" revision="refs/heads/lineage-23.0" />
+<!--
     <project path="device/asus/sdm660-common" name="Atiga-Stuff/device_asus_sdm660-common" remote="private" revision="refs/heads/lineage-23.0" />
+-->
 
     <!-- Kernel trees -->
     <project path="kernel/asus/sdm660" name="Atiga-Stuff/kernel_asus_sdm660" remote="private" revision="refs/heads/lineage-23.0" />
 
     <!-- Vendor trees -->
     <project path="vendor/asus/X00TD" name="Atiga-Stuff/vendor_asus_X00TD" remote="private" revision="refs/heads/lineage-23.0" />
+<!--
     <project path="vendor/asus/sdm660-common" name="Atiga-Stuff/vendor_asus_sdm660-common" remote="private" revision="refs/heads/lineage-23.0" />
+-->
 </manifest>
