@@ -11,5 +11,5 @@
 <!--
     <project path="vendor/atiga/extra" name="Atiga-Stuff/vendor_atiga_extra" remote="private" revision="refs/heads/lineage-19.1" />
 -->
-    <project path="vendor/afterlife-priv" name="Atiga-Stuff/vendor_atiga-priv" revision="refs/heads/afterlife-8.0" />
+    <project path="vendor/afterlife-priv" name="Atiga-Stuff/vendor_atiga-priv" />
 </manifest>
