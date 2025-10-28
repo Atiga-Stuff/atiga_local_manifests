@@ -5,7 +5,7 @@
              revision="refs/heads/13.x" />
 
     <!-- Clang -->
-    <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="gitlab" clone-depth="1" />
+    <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="gitea" revision="refs/heads/main" clone-depth="1" />
 
     <!-- Vendor -->
 <!--
