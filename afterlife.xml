@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remove-project name="AfterlifeOS/bootable_recovery" />
-    <project path="bootable/recovery" name="Atiga-Stuff/bootable_recovery" groups="pdk" revision="refs/heads/afterlife-16" />
+    <project path="bootable/recovery" name="Atiga-Stuff/bootable_recovery" groups="pdk" remote="private" revision="refs/heads/afterlife-16" />
     <remove-project name="AfterlifeOS/packages_modules_Wifi" />
-    <project path="packages/modules/Wifi" name="Atiga-Stuff/packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="refs/heads/afterlife-16" />
+    <project path="packages/modules/Wifi" name="Atiga-Stuff/packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="private" revision="refs/heads/afterlife-16" />
     <remove-project name="AfterlifeOS/system_core" />
-    <project path="system/core" name="Atiga-Stuff/system_core" groups="pdk" revision="refs/heads/afterlife-16" />
+    <project path="system/core" name="Atiga-Stuff/system_core" groups="pdk" remote="private" revision="refs/heads/afterlife-16" />
 </manifest>
