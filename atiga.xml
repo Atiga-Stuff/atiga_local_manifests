@@ -4,8 +4,12 @@
              fetch="https://gitlab.com"
              revision="refs/heads/13.x" />
 
+    <remote  name="gitea"
+             fetch="https://gitea.com"
+             revision="refs/heads/main" />
+
     <!-- Clang -->
-    <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="gitlab" clone-depth="1" />
+    <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="gitea" clone-depth="1" />
 
     <!-- Vendor -->
 <!--
